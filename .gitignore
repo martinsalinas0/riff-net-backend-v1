@@ -1,5 +1,81 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm/_logs/*
+
+# Diagnostic reports (https://nodejs.org)
+.report.*.json
+.report.*.uvscan
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.lock
+.lock-wscript
+
+# Dependency directories
+node_modules/
+/bower_components
+
+# Testing
+/coverage
+/.nyc_output
+/testem.json
+/lib-cov
+
+# Grunt intermediate storage (https://gruntjs.com)
+.grunt
+
+# Babel/TypeScript cache
+/.babelcache.json
+# TypeScript v2.0+
+/*.js
+/*.map
+
+# Optional REPL History
+.node_repl_history
+
+# Optional bundled files (make sure user can install them)
+# bundle.js
+# *.tgz
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional webpack cache
+.webpack_cache
+
+# Optional compiled files
+/build
+/dist
+/tmp
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.user
+*.cas
+*.sak
+*.psess
+*.vssscc
+.hg
+.nyc_output
+
+
+
+
 node_modules
 # Keep environment variables out of version control
 .env
 
 /generated/prisma
+status
